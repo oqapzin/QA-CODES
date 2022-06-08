@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Permanent+Marker&family=Rubik+Glitch&display=swap');
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.menu-text {
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+
+.menu-infos {
+    position: absolute;
+    right: 15px;
+}
+
+.menu-infos li {
+    display: inline-block;
+}
+
+.menu-infos li a {
+    color: black;
+    font-size: 15px;
+    width: 300px;
+    padding: 15px;
+}
+
+.menu-infos li a:hover {
+    color: red;
+}
